@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
  *         Created on 2018/12/25.
  */
 public abstract class PageObject {
-    protected final int TIMEOUT = 10;
+    protected final int TIMEOUT = 30;
     protected final WebDriver driver;
     protected Logger logger = LoggerFactory.getLogger(this.getClass());
 
